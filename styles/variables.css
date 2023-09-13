@@ -1,4 +1,13 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --background-color: #000028;
+  --accent-color: #ff0070;
+  --shadow-title-color: #ff0070;
+  --title-color: #db00ff;
+  --text-on-background__color: #000028;
+  --text-color: #f1b2ce;
+  --bg-image: url(../images/cover-image-dark.png);
+  --big-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --button-color: var(--accent-color);
+  --decorativ-visability: block;
+  --rectangle-color: #ff0070;
+}
