@@ -10,6 +10,8 @@
   --button-color: var(--text-color);
   --decorativ-visability: none;
   --rectangle-color: #353430;
+  --hover-button-color: #e1007066;
+  --section-title-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,5 +27,7 @@
     --button-color: var(--text-color);
     --decorativ-visability: none;
     --rectangle-color: #353430;
+    --hover-button-color: #e1007066;
+    --section-title-color: #353430;
   }
 }
