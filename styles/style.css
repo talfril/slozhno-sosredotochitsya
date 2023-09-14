@@ -283,28 +283,6 @@
   padding: 20px 20px 20px 20px;
 }
 
-.rectangles::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-top: 1px solid var(--rectangle-color);
-  border-right: 1px solid var(--rectangle-color);
-  inset-block-start: 20px;
-  inset-inline-end: 20px;
-  position: absolute;
-}
-
-.rectangles::after {
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-bottom: 1px solid var(--rectangle-color);
-  border-left: 1px solid var(--rectangle-color);
-  inset-inline-start: 20px;
-  inset-block-end: 20px;
-  position: absolute;
-}
-
 .footer-text {
   color: var(--title-color);
   text-shadow: 2px 2px 0px var(--shadow-title-color);
@@ -414,15 +392,5 @@
   .footer {
     margin-block-start: 40px;
     padding: 10px 10px 10px 10px;
-  }
-
-  .rectangles::before {
-    inset-block-start: 10px;
-    inset-inline-end: 10px;
-  }
-
-  .rectangles::after {
-    inset-inline-start: 10px;
-    inset-block-end: 10px;
   }
 }
