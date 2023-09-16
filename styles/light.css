@@ -10,7 +10,7 @@
   --button-color: var(--text-color);
   --decorativ-visability: none;
   --rectangle-color: #353430;
-  --hover-button-color: #e1007066;
+  --hover-button-color: #32312d66;
   --section-title-color: #353430;
 }
 
@@ -27,7 +27,7 @@
     --button-color: var(--text-color);
     --decorativ-visability: none;
     --rectangle-color: #353430;
-    --hover-button-color: #e1007066;
+    --hover-button-color: #32312d66;
     --section-title-color: #353430;
   }
 }

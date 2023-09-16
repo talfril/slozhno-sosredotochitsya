@@ -369,14 +369,12 @@
   }
 
   .section-title {
-    width: 90vw;
-    font-size: 17.5px;
+    width: 100%;
+    font-size: 18px;
   }
 
   .gallery {
-    display: flex;
     gap: 10px;
-    flex-direction: column;
     margin: 40px 10px;
   }
 
